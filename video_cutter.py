@@ -10,22 +10,16 @@ def get_info() -> tuple:
     Тут мы получаем информацию от пользователя.
     Длительность видео, качество, путь к видео, путь к музыке.
     """
-    # interval = input('Введите интервал видео через тире (например: 45-60): \n').split("-")
-    interval = ["45", "55"]
-    # quality = int(input('Введите желаемое разрешение видео (например: 720 или 1080):\nДоступно от 240р до 1080р\n'))
-    quality = 720
-    # folders_count = int(input("Введите желаемое количество папок на выходе: \n"))
-    folders_count = 0
-    # threads = int(input("Введите количество потоков в процессоре: \n"))
-    threads = 8
+    interval = input('Введите интервал видео через тире (например: 45-60): \n').split("-")
+    quality = int(input('Введите желаемое разрешение видео (например: 720 или 1080):\nДоступно от 240р до 1080р\n'))
+    folders_count = int(input("Введите желаемое количество папок на выходе: \n"))
+    threads = int(input("Введите количество потоков в процессоре: \n"))
 
     try:
-        # videos_path = input('Введите путь к папке с видеороликами:\n')
-        videos_path = r"C:\Users\Egor\Desktop\тест видео 2"
+        videos_path = input('Введите путь к папке с видеороликами:\n')
         if not os.path.exists(videos_path):
             raise IOError
-        # music_path = input('Введите путь к папке с музыкой:\n')
-        music_path = r"C:\Users\Egor\Desktop\Музыка для новых коротышей"
+        music_path = input('Введите путь к папке с музыкой:\n')
         if not os.path.exists(music_path):
             raise IOError
 
