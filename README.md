@@ -1,4 +1,5 @@
-<h2>🎞Python script "VideoCutter"🎞</h2>
+<img src="https://img.icons8.com/external-smashingstocks-outline-color-smashing-stocks/66/000000/external-Cut-Video-art-and-design-and-photography-smashingstocks-outline-color-smashing-stocks.png"/>
+<h2>Python script "VideoCutter"</h2>
 <h4>*👨🏻‍💻 It was an order</h4>
 <h3>📄The description of the work: </h3>
 <p>
